@@ -1,0 +1,37 @@
+.Swidget{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    flex: 1;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    height: auto;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.left .title{
+    font-weight: bold;
+    font-size: 14px;
+    color: rgb(183, 178, 178);
+}
+.left .counter{
+    font-size: 28px;
+    font-weight: 300;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.link{
+    font-size: 14px;
+    border-bottom: 1px solid gray;
+}
+.right .icons{
+
+    color: #7451f8;
+}
